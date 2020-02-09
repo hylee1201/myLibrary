@@ -1,0 +1,967 @@
+{
+    "_id" : ObjectId("5dc5b9e9165a10b25ae24f50"),
+    "wealthClientMasterInfo" : {
+        "reference" : {
+            "partyId" : "1000011660",
+            "relatedParties" : [ 
+                {
+                    "partyId" : "1000011641",
+                    "partyTypeCd" : "P"
+                }
+            ]
+        },
+        "applicationInfo" : {
+            "applicationId" : "36956",
+            "subApplicationList" : [ 
+                {
+                    "subApplicationId" : "36956"
+                }
+            ],
+            "externalRefNumber" : null,
+            "applicationStartDate" : "Mon Feb 26 14:10:19 EST 2018",
+            "applicationSubmitDate" : null,
+            "websiteSessionLocale" : "en_CA",
+            "promoCode" : {
+                "code" : null,
+                "id" : null,
+                "description" : null,
+                "descriptionFr" : null
+            },
+            "sessionId" : "79bf6648-6548-4f43-a1c3-3baf7c97b2d6",
+            "referringAgent" : {
+                "acf2id" : "joedoe7",
+                "transitNumber" : "12345",
+                "clientMeetingConfirmation" : true,
+                "commentTxt" : "dGhpc2lzYXRleHQgY29udGFpbmluZzI1NWNoYXJhY3RlcnNmb3J0aGVzYWtlb2Z0ZXN0aW5nY2xhcmlmaWNhdGlvbnRleHRmaWVsZHMxMjM0NTY3ODkwIUAjJCVeJiooKWB+LV89Kzs6JyIsPC4+Lz9pbHlhdmFpdHVuY29yYmVhdWFzc29pZmbDqWRhbnNsZXZpbGxhZ2VxdWlidXZhaXRkZSBsYSBiacOocmUgdGVsbGVtZW50IHF1J2lsIMOpdGFpdCBzYW91bHNpZW1wcmVoYXl1bmFidWVuYWNhbmNpw7NuZXNwYcOxb2xhY29tb2Rlc3BhY2l0b3liYWlsYW5kb2U="
+            },
+            "SignatureType" : "DIGITAL",
+            "shareInfo" : true,
+            "registerEService" : false,
+            "receiveStatement" : null,
+            "receiveTaxDoc" : null,
+            "hasCoApplicants" : true,
+            "hasRelatedParty" : false,
+            "c3KeepAliveURL" : "http://dev11.c3.tdgroup.com:8080/c3/KeepAliveServlet",
+            "c3ReturnURL" : "https://www.td.com/ca/en/personal-banking/",
+            "isSaved" : "Y",
+            "savedApplicationId" : "123456",
+            "savedSubApplicationId" : "123456"
+        },
+        "aboutYou" : {
+            "aboutYouFrozen" : false,
+            "profileType" : "PRIMARY_APPLICANT",
+            "profileId" : "0",
+            "profileRoles" : [],
+            "confirmationDetails" : {
+                "financialInfo" : {
+                    "additionalInfo" : {
+                        "infoList" : [],
+                        "infoOther" : ""
+                    }
+                }
+            },
+            "idCaptureInfo" : {
+                "idCode" : "NEXUS",
+                "placeOfIssue" : "CA",
+                "cardNumber" : "234",
+                "expiryDate" : "2027-10-23",
+                "issueDate" : "2005-06-18"
+            },
+            "personalInfo" : {
+                "title" : "MS",
+                "firstName" : "Hello",
+                "lastName" : "Priya",
+                "middleName" : "",
+                "preferredName" : " ",
+                "suffix" : null,
+                "SIN" : "789557790",
+                "language" : "en",
+                "citizenship" : "CA",
+                "maritalStatus" : "M",
+                "numOfDependants" : 10,
+                "isCanadaTaxResident" : "Y",
+                "eligibilityFailed" : "N",
+                "isPreferredNameSameAsLegal" : "N",
+                "isDualCitizen" : false,
+                "isNewToBank" : true,
+                "isNewToWealth" : false,
+                "isExisting" : false,
+                "isUSCitizen" : "N",
+                "isResidentOfOtherCountry" : "N",
+                "DOB" : "1954-01-09",
+                "usTaxJurisdiction" : {}
+            },
+            "contactInfo" : {
+                "countryCode" : "93-AF",
+                "phoneNumber" : "3344556677",
+                "phoneType" : "MOBILE",
+                "email" : "abc@abcd.com",
+                "legalAddress" : {
+                    "country" : "CA",
+                    "unitNumber" : "",
+                    "unitType" : null,
+                    "streetNumber" : "2003 A",
+                    "streetAddress" : "Dundas Street West",
+                    "city" : "Toronto",
+                    "province" : "ON",
+                    "postalCode" : "M6R 1W7",
+                    "provinceInelgible" : false,
+                    "relationshipId" : null,
+                    "addressId" : null
+                },
+                "mailingAddress" : {
+                    "clarifyMailingProvince" : true,
+                    "clarificationMailingAddressProvince" : {
+                        "typeCd" : "MAILING",
+                        "options" : [ 
+                            "US"
+                        ],
+                        "clarificationType" : "ADDRESS"
+                    },
+                    "city" : "Toronto",
+                    "country" : "US",
+                    "postalCode" : "M5B 1N8",
+                    "province" : null,
+                    "streetAddress" : "Yonge Street",
+                    "streetNumber" : "237 A",
+                    "unitType" : null,
+                    "unitNumber" : "",
+                    "hasResidedMoreThan182Days" : true,
+                    "relationshipId" : null,
+                    "addressId" : null
+                },
+                "secondaryPhones" : [],
+                "clarifyPhone" : true,
+                "mailingAddressSameAsLegal" : false,
+                "hasResidedMoreThan182Days" : true,
+                "clarificationContactPhoneNumber" : {
+                    "typeCd" : "MOBILE",
+                    "options" : [ 
+                        "93-AF"
+                    ],
+                    "clarificationType" : "PHONE"
+                }
+            },
+            "employmentInfo" : {
+                "statusCd" : "EMPLOYED",
+                "industry" : "100",
+                "occupation" : "100014",
+                "address" : {
+                    "country" : "CA",
+                    "streetNumber" : "100",
+                    "streetAddress" : "Wellington Street West",
+                    "city" : "Toronto",
+                    "province" : "ON",
+                    "postalCode" : "M6b 2e8",
+                    "clarifyOccupationAddrUsa" : false,
+                    "clarifyOccupationAddrOth" : false
+                },
+                "employerName" : "Princeton University",
+                "employerPhoneCountryCode" : "1-CA",
+                "employerPhoneExtension" : "5",
+                "employerPhoneNumber" : "4161234567",
+                "clarifyEmployment" : false
+            },
+            "investmentInfo" : {
+                "stockExperienceNumYears" : 3,
+                "bondsExperienceNumYears" : 2,
+                "optionsExperienceNumYears" : 3,
+                "mutualFundsExperienceNumYears" : 4,
+                "shortSellingExperienceNumYears" : 5,
+                "areYouInControlPosition" : false,
+                "areThirdPartiesInterested" : "Y",
+                "kycControlPosition" : [],
+                "areYouDirectorOfficer" : false,
+                "kycDirectorOfficer" : [],
+                "doYouHaveOtherAccounts" : false,
+                "anyInvestmentProsInTheHousehold" : false,
+                "kycPro" : [],
+                "brokerageAccounts" : []
+            },
+            "accountDetails" : {
+                "purpose" : [ 
+                    {
+                        "primaryPurpose" : "RETIREMENT_SAVINGS",
+                      
+                        "accountType" : "ITF",
+                        "isJointAccount" : "Y",
+                        "beneficiaryCanadian" : null,
+                        "eligibilityLetter" : null,
+                        "originalAccountProvince" : null,
+                        "origPensionPlanEmployer" : null,
+                        "optionTradingSelected" : null,
+                        "shortSelling" : null,
+                        "otherDescription" : null,
+                        "jointApplicants" : [ 
+                            "1"
+                        ],
+                        "beneficiaries" : []
+                    }
+                ],
+                "maintenanceFee" : "",
+                "shareholderCommunication" : "PROXY",
+                "shareInfoSecurityHolder" : "Y",
+                "accounts" : [ 
+                    {
+                        "accountType" : "TFSA",
+                        "currency" : "CAD",
+                        "accountNumber" : "45AV50S-TFSA-CA"
+                    }, 
+                    {
+                        "accountType" : "TFSA",
+                        "currency" : "USD",
+                        "accountNumber" : "45AV50S-TFSA-US"
+                    }, 
+                    {
+                        "accountType" : "MARGIN",
+                        "currency" : "CAD",
+                        "accountNumber" : "45AV50S-MARGIN-CA"
+                    }, 
+                    {
+                        "accountType" : "MARGIN",
+                        "currency" : "USD",
+                        "accountNumber" : "45AV50S-MARGIN-USA"
+                    }, 
+                    {
+                        "accountType" : "MARGIN_SHORT",
+                        "currency" : "CAD",
+                        "accountNumber" : "45AV50S-MARGIN-SHORT-CA"
+                    }, 
+                    {
+                        "accountType" : "MARGIN_SHORT",
+                        "currency" : "USD",
+                        "accountNumber" : "45AV50S-MARGIN-SHORT-USA"
+                    }
+                ]
+            },
+            "financialInfo" : {
+                "grossAnnualPersonalIncome" : 10,
+                "totalLiquidAssets" : 30,
+                "otherFixedAssets" : 40,
+                "valueOfPrincipalResidence" : 50,
+                "totalAssets" : 120,
+                "totalLiabilities" : 70,
+                "estimatedNetWorth" : 50,
+                "financialInstitutions" : [ 
+                    {
+                        "financialInstitution" : "TD",
+                        "financialInstitutionName" : "TD Canada Trust",
+                        "institutionNumber" : "004",
+                        "branch" : "4567",
+                        "accountNumber" : ""
+                    }
+                ],
+                "clarifyIncome" : false,
+                "clarifyWealth" : false,
+                "hasOtherAsIncomeSource" : false,
+                "hasOtherAsWealthSource" : false
+            },
+            "tcConsentInfo" : {
+                "consentDateTimeStamp" : null,
+                "consentSignedDate" : null,
+                "customerShareInfo" : false,
+                "signedName" : null,
+                "offSignature" : null,
+                "ipAddress" : null,
+                "sessionId" : null,
+                "communicationLanguageCD" : null,
+                "appId" : null,
+                "subAppId" : null,
+                "familyName" : null,
+                "disclosureDocumentInfoList" : [ 
+                    {
+                        "section" : "Accounts",
+                        "documentName" : "Conventions de comptes et de services et D�clarations - TD Waterhouse Canada Inc.",
+                        "documentNameFr" : "Conventions de comptes et de services et D�clarations - TD Waterhouse Canada Inc.",
+                        "productId" : "DI_WATER",
+                        "productGroup" : "DI",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "no",
+                        "link" : "https://www.td.com/ca/francais/document/PDF/formulaires/595637.pdf",
+                        "capture" : "no",
+                        "order" : 1,
+                        "linkFr" : "https://www.td.com/ca/francais/document/PDF/formulaires/595637.pdf",
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "SL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Accounts",
+                        "documentName" : "Tableau des commissions et bar�me des taux d�int�r�t et des frais de service",
+                        "documentNameFr" : "Tableau des commissions et bar�me des taux d�int�r�t et des frais de service",
+                        "productId" : "DI_COMMISION",
+                        "productGroup" : "DI",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "no",
+                        "link" : "https://www.td.com/ca/francais/document/PDF/formulaires/521779.pdf",
+                        "capture" : "no",
+                        "order" : 2,
+                        "linkFr" : "https://www.td.com/ca/francais/document/PDF/formulaires/521779.pdf",
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "SL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Accounts",
+                        "documentName" : "Documents importants suppl�mentaires li�s � l�ouverture de votre compte",
+                        "documentNameFr" : "Documents importants suppl�mentaires li�s � l�ouverture de votre compte",
+                        "productId" : "DI_IDAO_TC",
+                        "documentCreateDT" : "MjAxOC0wMS0yOQ==",
+                        "productGroup" : "DI",
+                        "disclosureContent" : "PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCiAgPGhlYWQ+DQogIDxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4NCiAgPHRpdGxlPkRvY3VtZW50cyBpbXBvcnRhbnRzIGxpw6lzIMOgIGwnb3V2ZXJ0dXJlIGRlIHZvdHJlIGNvbXB0ZSA8L3RpdGxlPg0KPCEtLSBTQ1JFRU4gU1RZTEVTSEVFVCAtLT4NCg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0iYWxsIj4NCg0KDQovKi0gUkVTRVQgLSovDQoNCi5ib2R5X2Y4MDA4MTcge21hcmdpbjogMWVtIDFlbSAzZW0gMWVtOyBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGOyBmb250LWZhbWlseTogIlJvYm90byIsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgY29sb3I6ICMwMDA7IGZvbnQtc2l6ZTpzbWFsbDsgbWF4LXdpZHRoOiAxMDAlO30NCg0KLmJvZHlfZjgwMDgxNyBoMSB7Zm9udC1zaXplOjEuNWVtOyBtYXJnaW46MCAwIC4yNWVtOyAwfQ0KDQouYm9keV9mODAwODE3IGgxIGltZwl7DQoJd2lkdGg6IDQ1cHg7DQoJaGVpZ2h0OiAzOHB4Ow0KCWRpc3BsYXk6IGJsb2NrOw0KCWZsb2F0OiBsZWZ0Ow0KfQ0KDQouYm9keV9mODAwODE3IGgyIHtmb250LXNpemU6MS4zZW07IG1hcmdpbjowO30NCg0KLmJvZHlfZjgwMDgxNyBwLCAuYm9keV9mODAwODE3IGgzIHtmb250LXNpemU6MWVtO30NCg0KLmJvZHlfZjgwMDgxNyBoMyB7bWFyZ2luLXRvcDoxZW07IG1hcmdpbi1ib3R0b206LjNlbTt9DQoNCi5ib2R5X2Y4MDA4MTcgcCB7bWFyZ2luLXRvcDowOyBtYXJnaW4tYm90dG9tOjFlbTt9DQoNCi5ib2R5X2Y4MDA4MTcgaDEgc3VwIHtmb250LXNpemU6IDgwJTsgbGluZS1oZWlnaHQ6IDFwdDsgfQ0KDQouYm9keV9mODAwODE3IC5mb3JtLW51bWJlciB7Zm9udC1zaXplOiAuNmVtOyB0ZXh0LWFsaWduOnJpZ2h0O30NCg0KLmJvZHlfZjgwMDgxNyB1bCwgLmJvZHlfZjgwMDgxNyBsaSB7bWFyZ2luOjA7IHBhZGRpbmc6MDt9DQoNCi5ib2R5X2Y4MDA4MTcgbGkge21hcmdpbjouMjVlbSAwIC4yNWVtIDIuNWVtO30NCg0KPC9zdHlsZT4NCg0KPC9oZWFkPg0KDQoJDQoNCiA8Ym9keSBjbGFzcz0iYm9keV9mODAwODE3Ij4NCg0KIDxoMT48aW1nIGFsdD0iVEQgQ2FuYWRhIFRydXN0IiBzcmM9Imh0dHBzOi8vd3d3LnRkY2FuYWRhdHJ1c3QuY29tL2ltYWdlcy9lYXN5d2ViNS9kaXNjbG9zdXJlL2NvbnNlbnQvVEQuanBnIi8+DQogPGJyIC8+PGJyPkRvY3VtZW50cyBpbXBvcnRhbnRzIGxpw6lzIMOgIGwnb3V2ZXJ0dXJlIGRlIHZvdHJlIGNvbXB0ZSA8L2gxPjxicj4NCjxwPg0KPHVsIHR5cGU9ImRpc2MiPg0KPCEtLTxsaT48YSB0aXRsZT0iVEQgV2F0ZXJob3VzZSBDYW5hZGEgSW5jLiBBY2NvdW50IGFuZCBTZXJ2aWNlIEFncmVlbWVudCBhbmQgRGlzY2xvc3VyZSBEb2N1bWVudHMiIGhyZWY9Imh0dHBzOi8vd3d3LnRkLmNvbS9jYS9wcm9kdWN0cy1zZXJ2aWNlcy9pbnZlc3RpbmcvdGQtZGlyZWN0LWludmVzdGluZy9hY2NvdW50cy9mb3Jtcy1hcHBsaWNhdGlvbnMvZm9ybXMuanNwP2lkPTU5NTYzNiIgdGFyZ2V0PSJfYmxhbmsiPlREIFdhdGVyaG91c2UgQ2FuYWRhIEluYy4gQWNjb3VudCBhbmQgU2VydmljZSBBZ3JlZW1lbnQgYW5kIERpc2Nsb3N1cmUgRG9jdW1lbnRzPC9hPjwvbGk+LS0+DQo8IS0tPGxpPjxhIHRpdGxlPSJDb21taXNzaW9uIFNjaGVkdWxlIGFuZCBTdGF0ZW1lbnQgb2YgRGlzY2xvc3VyZSBvZiBSYXRlcyBhbmQgRmVlcyIgaHJlZj0iaHR0cHM6Ly93d3cudGQuY29tL2NhL3Byb2R1Y3RzLXNlcnZpY2VzL2ludmVzdGluZy90ZC1kaXJlY3QtaW52ZXN0aW5nL2FjY291bnRzL2Zvcm1zLWFwcGxpY2F0aW9ucy9mb3Jtcy5qc3A/aWQ9NTIxNzc4IiB0YXJnZXQ9Il9ibGFuayI+Q29tbWlzc2lvbiBTY2hlZHVsZSBhbmQgU3RhdGVtZW50IG9mIERpc2Nsb3N1cmUgb2YgUmF0ZXMgYW5kIEZlZXM8L2E+PC9saT4tLT4NCjxsaT48YSB0aXRsZT0iRG9jdW1lbnRzIGQnaW5mb3JtYXRpb24gc3VyIGxhIHJlbGF0aW9uIGF2ZWMgUGxhY2VtZW50cyBkaXJlY3RzIFREIiBocmVmPSJodHRwczovL3d3dy50ZC5jb20vY2EvZnJhbmNhaXMvcHJvZHVpdHMtZXQtc2VydmljZXMvaW52ZXN0aXNzZW1lbnRzL3BsYWNlbWVudHMtZGlyZWN0cy10ZC9jb21wdGVzL2Zvcm11bGFpcmVzLWV0LWRlbWFuZGVzL2Zvcm11bGFpcmVzLmpzcD9pZD01MzMzNzkiIHRhcmdldD0iX2JsYW5rIj5Eb2N1bWVudHMgZCdpbmZvcm1hdGlvbiBzdXIgbGEgcmVsYXRpb24gYXZlYyBQbGFjZW1lbnRzIGRpcmVjdHMgVEQgPC9hPjwvbGk+DQo8bGk+PGEgdGl0bGU9IkZvbmRzIGNhbmFkaWVuIGRlIHByb3RlY3Rpb24gZGVzIMOpcGFyZ25hbnRzIiBocmVmPSJodHRwczovL3d3dy50ZC5jb20vY2EvZnJhbmNhaXMvZG9jdW1lbnQvUERGL2Zvcm1zL0NJUEZfQnJvY2h1cmVfZnIucGRmIiB0YXJnZXQ9Il9ibGFuayI+Rm9uZHMgY2FuYWRpZW4gZGUgcHJvdGVjdGlvbiBkZXMgw6lwYXJnbmFudHM8L2E+PC9saT4NCjxsaT48YSB0aXRsZT0iR3VpZGUgZGUgbCdpbnZlc3Rpc3NldXIgc3VyIGxlIGTDqXDDtHQgZCd1bmUgcGxhaW50ZSIgaHJlZj0iaHR0cDovL3d3dy5vY3Jjdm0uY2EvaW5kdXN0cnkvY29udGludWluZ2VkdWNhdGlvbm1lbWJlci9Eb2N1bWVudHMvSW52ZXN0b3JQcm90ZWN0aW9uQnJvY2h1cmVfZnIucGRmIiB0YXJnZXQ9Il9ibGFuayI+R3VpZGUgZGUgbCdpbnZlc3Rpc3NldXIgc3VyIGxlIGTDqXDDtHQgZCd1bmUgcGxhaW50ZTwvYT48L2xpPg0KPGxpPjxhIHRpdGxlPSJPQ1JDVk0gLSBPYmxpZ2F0aW9ucyDDoCBjb3Vwb25zIGTDqXRhY2jDqXMgZXQgZW5zZW1ibGVzIG9ibGlnYXRpb25zIMOgIGNvdXBvbnMgZMOpdGFjaMOpcyIgaHJlZj0iaHR0cDovL3d3dy5paXJvYy5jYS9pbmR1c3RyeS9tZW1iZXItcmVzb3VyY2VzL0RvY3VtZW50cy9TdHJpcEJvbmRCcm9jaHVyZXNfZnIucGRmIiB0YXJnZXQ9Il9ibGFuayI+T0NSQ1ZNIC0gT2JsaWdhdGlvbnMgw6AgY291cG9ucyBkw6l0YWNow6lzIGV0IGVuc2VtYmxlcyBvYmxpZ2F0aW9ucyDDoCBjb3Vwb25zIGTDqXRhY2jDqXM8L2E+PC9saT4NCjxsaT48YSB0aXRsZT0iQ29tbWVudCBsJ09DUkNWTSBwcm90w6hnZSBsZXMgaW52ZXN0aXNzZXVycyIgaHJlZj0iaHR0cDovL3d3dy5paXJvYy5jYS9pbmR1c3RyeS9tZW1iZXItcmVzb3VyY2VzL0RvY3VtZW50cy9Db21tZW50LWxPQ1JDVk0tcHJvdGVnZS1sZXMtaW52ZXN0aXNzZXVycy5wZGYiIHRhcmdldD0iX2JsYW5rIj5Db21tZW50IGwnT0NSQ1ZNIHByb3TDqGdlIGxlcyBpbnZlc3Rpc3NldXJzPC9hPjwvbGk+DQo8bGk+PGEgdGl0bGU9Ik9DUkNWTSAtIE91dnJpciB1biBjb21wdGUgcGVyc29ubmVsIiBocmVmPSJodHRwOi8vd3d3Lmlpcm9jLmNhL2luZHVzdHJ5L21lbWJlci1yZXNvdXJjZXMvRG9jdW1lbnRzL1JldGFpbEFjY291bnRCcm9jaHVyZV9mci5wZGYiIHRhcmdldD0iX2JsYW5rIj5PQ1JDVk0gLSBPdXZyaXIgdW4gY29tcHRlIHBlcnNvbm5lbDwvYT48L2xpPg0KPC91bD4NCjwvcD4NCjxicj4NCg0KPHAgY2xhc3M9ImZvcm0tbnVtYmVyIj44MDA4MTcgKDAxMTgpPC9wPg0KDQo8L2JvZHk+DQo8L2h0bWw+",
+                        "contentType" : "HTML",
+                        "documentTypeCD" : "IDAO_TC",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "no",
+                        "order" : 3,
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "DL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Privacy",
+                        "documentName" : "Consentement � la collecte, � l�utilisation et/ou � la divulgation de vos renseignements",
+                        "documentNameFr" : "Consentement � la collecte, � l�utilisation et/ou � la divulgation de vos renseignements",
+                        "productId" : "DI_CCUDI_TC",
+                        "documentCreateDT" : "MjAxOC0wMS0yOQ==",
+                        "productGroup" : "DI",
+                        "disclosureContent" : "PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCiAgPGhlYWQ+DQogIDxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4NCiAgPHRpdGxlPkNvbnNlbnRlbWVudCDDoCBsYSBjb2xsZWN0ZSwgw6AgbCd1dGlsaXNhdGlvbiBldC9vdSDDoCBsYSBkaXZ1bGdhdGlvbiBkZSB2b3MgcmVuc2VpZ25lbWVudHM8L3RpdGxlPg0KPCEtLSBTQ1JFRU4gU1RZTEVTSEVFVCAtLT4NCg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0iYWxsIj4NCg0KDQovKi0gUkVTRVQgLSovDQoNCi5ib2R5X2Y4MDA4MTUge21hcmdpbjogMWVtIDFlbSAzZW0gMWVtOyBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGOyBmb250LWZhbWlseTogIlJvYm90byIsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgY29sb3I6ICMwMDA7IGZvbnQtc2l6ZTpzbWFsbDsgbWF4LXdpZHRoOiAxMDAlOyB9DQoNCi5ib2R5X2Y4MDA4MTUgaDEge2ZvbnQtc2l6ZToxLjVlbTsgbWFyZ2luOjAgMCAuMjVlbTsgMH0NCg0KLmJvZHlfZjgwMDgxNSBoMSBpbWcJew0KCXdpZHRoOiA0NXB4Ow0KCWhlaWdodDogMzhweDsNCglkaXNwbGF5OiBibG9jazsNCglmbG9hdDogbGVmdDsNCn0NCg0KLmJvZHlfZjgwMDgxNSBoMiB7Zm9udC1zaXplOjEuM2VtOyBtYXJnaW46MDt9DQoNCi5ib2R5X2Y4MDA4MTUgcCwgLmJvZHlfZjgwMDgxNSBoMyB7Zm9udC1zaXplOjFlbTt9DQoNCi5ib2R5X2Y4MDA4MTUgaDMge21hcmdpbi10b3A6MWVtOyBtYXJnaW4tYm90dG9tOi4zZW07fQ0KDQouYm9keV9mODAwODE1IHAge21hcmdpbi10b3A6MDsgbWFyZ2luLWJvdHRvbToxZW07fQ0KDQouYm9keV9mODAwODE1IGgxIHN1cCB7Zm9udC1zaXplOiA4MCU7IGxpbmUtaGVpZ2h0OiAxcHQ7IH0NCg0KLmJvZHlfZjgwMDgxNSAuZm9ybS1udW1iZXIge2ZvbnQtc2l6ZTogLjZlbTsgdGV4dC1hbGlnbjpyaWdodDt9DQoNCi5ib2R5X2Y4MDA4MTUgdWwsIC5ib2R5X2Y4MDA4MTUgbGkge21hcmdpbjowOyBwYWRkaW5nOjA7fQ0KDQouYm9keV9mODAwODE1IGxpIHttYXJnaW46LjI1ZW0gMCAuMjVlbSAyLjVlbTt9DQoNCjwvc3R5bGU+DQoNCjwvaGVhZD4NCg0KCQ0KDQogPGJvZHkgY2xhc3M9ImJvZHlfZjgwMDgxNSI+DQogDQoNCiA8aDE+PGltZyBhbHQ9IlREIENhbmFkYSBUcnVzdCIgc3JjPSJodHRwczovL3d3dy50ZGNhbmFkYXRydXN0LmNvbS9pbWFnZXMvZWFzeXdlYjUvZGlzY2xvc3VyZS9jb25zZW50L1RELmpwZyIvPg0KIDxiciAvPjxicj5Db25zZW50ZW1lbnQgw6AgbGEgY29sbGVjdGUsIMOgIGwndXRpbGlzYXRpb24gZXQvb3Ugw6AgbGEgZGl2dWxnYXRpb24gZGUgdm9zIHJlbnNlaWduZW1lbnRzPC9oMT48YnI+DQogDQo8cD5MZSB0ZXJtZSAgwqsmbmJzcDtyZW5zZWlnbmVtZW50cyZuYnNwO8K7IGTDqXNpZ25lIHZvcyByZW5zZWlnbmVtZW50cyBwZXJzb25uZWxzLCBmaW5hbmNpZXJzIGV0IGF1dHJlcyBxdWUgdm91cyBub3VzIGF2ZXogZm91cm5pcyBvdSBxdWUgbm91cyBhdm9ucyBvYnRlbnVzIGQnYXV0cmVzIHBhcnRpZXMgbmUgZmFpc2FudCBwYXMgcGFydGllIGRlIFRELCB5IGNvbXByaXMgcGFyIHZvdHJlIHV0aWxpc2F0aW9uIGRlcyBwcm9kdWl0cyBldCBkZXMgc2VydmljZXMuIExlcyB0ZXJtZXMgwqsmbmJzcDtub3VzJm5ic3A7wrssIMKrJm5ic3A7bm90cmUmbmJzcDvCuyBldCDCqyZuYnNwO25vcyZuYnNwO8K7IGTDqXNpZ25lbnQgbGUgR3JvdXBlIEJhbnF1ZSBURCAowqsmbmJzcDtURCZuYnNwO8K7KS4gVEQgY29tcHJlbmQgTGEgQmFucXVlIFRvcm9udG8tRG9taW5pb24gZXQgc2VzIHNvY2nDqXTDqXMgYWZmaWxpw6llcyDDoCBsJ8OpY2hlbGxlIG1vbmRpYWxlIHF1aSBvZmZyZW50IGRlcyBwcm9kdWl0cyBldCBkZXMgc2VydmljZXMgcmVsYXRpZnMgYXV4IGTDqXDDtHRzLCBhdXggcGxhY2VtZW50cywgYXV4IHByw6p0cywgYXV4IHZhbGV1cnMgbW9iaWxpw6hyZXMsIGF1eCBmaWR1Y2llcywgYXV4IGFzc3VyYW5jZXMgZXQgYXV0cmVzLjwvcD4NCg0KPHA+Vm91cyBjb252ZW5leiBxdSdhdSBtb21lbnQgb8O5IHZvdXMgZGVtYW5kZXogw6Agw6l0YWJsaXIgdW5lIHJlbGF0aW9uIGF2ZWMgbm91cyBldCBwZW5kYW50IHF1ZSBub3VzIGVudHJldGVub25zIGNldHRlIHJlbGF0aW9uLCBub3VzIHBvdXZvbnMgdHJhbnNtZXR0cmUgdm9zIHJlbnNlaWduZW1lbnRzIMOgIG5vcyBzb2Npw6l0w6lzIGFmZmlsacOpZXMgw6AgbCfDqWNoZWxsZSBtb25kaWFsZSwgZXQgcmVjdWVpbGxpciwgdXRpbGlzZXIgZXQgZGl2dWxndWVyIHZvcyByZW5zZWlnbmVtZW50cyBkZSBsYSBtYW5pw6hyZSBwcsOpdnVlIGRhbnMgbGEgPGEgdGl0bGU9IlByaXZhY3kgQWdyZWVtZW50IiBocmVmPSJodHRwczovL3d3dy50ZC5jb20vZnJhbmNhaXMvY29uZmlkZW50aWFsaXRlLWV0LXNlY3VyaXRlL2NvbmZpZGVudGlhbGl0ZS1ldC1zZWN1cml0ZS9ub3MtZW5nYWdlbWVudHMtYS1sZWdhcmQtZGUtbGEtY29uZmlkZW50aWFsaXRlL2NvbnZlbnRpb24tc3VyLWxhLWNvbmZpZGVudGlhbGl0ZS1kZS1sYS1iYW5xdWUtdGQvYWdyZWVtZW50LmpzcCIgdGFyZ2V0PSJfYmxhbmsiPkNvbnZlbnRpb24gc3VyIGxhIGNvbmZpZGVudGlhbGl0w6kgVEQgZGVzIHJlbnNlaWduZW1lbnRzIHBlcnNvbm5lbHM8L2E+IHN1ciB0ZC5jb20sIG5vdGFtbWVudCBwb3VyIHbDqXJpZmllciB2b3RyZSBpZGVudGl0w6ksIHZvdXMgZm91cm5pciBkZXMgc2VydmljZXMgY29udGludXMsIG5vdXMgcGVybWV0dHJlIGRlIG1pZXV4IHZvdXMgc2VydmlyLCBhc3N1cmVyIHZvdHJlIHByb3RlY3Rpb24gZXQgbGEgbsO0dHJlIGNvbnRyZSBsYSBmcmF1ZGUgZXQgbGVzIGVycmV1cnMsIG5vdXMgY29uZm9ybWVyIGF1eCBleGlnZW5jZXMgbMOpZ2FsZXMgZXQgcsOpZ2xlbWVudGFpcmVzIGV0IHZvdXMgaW5mb3JtZXIgZCdhdXRyZXMgcHJvZHVpdHMgZXQgc2VydmljZXMgcXVlIG5vdXMgcHJvcG9zb25zLiBOb3VzIHBvdXZvbnMgY29tbXVuaXF1ZXIgYXZlYyB2b3VzIHBvdXIgbCd1bmUgZGUgY2VzIHJhaXNvbnMsIHF1ZSBjZSBzb2l0IHBhciB0w6lsw6lwaG9uZSwgcGFyIHTDqWzDqWNvcGlldXIsIHBhciBtZXNzYWdlIHRleHRlIG91IHBhciB0b3V0IGF1dHJlIG1veWVuIMOpbGVjdHJvbmlxdWUsIG91IHBhciBkaXNwb3NpdGlmIGRlIGNvbXBvc2l0aW9uIGV0IGQnYW5ub25jZSBhdXRvbWF0aXF1ZSwgYXV4IG51bcOpcm9zIHF1ZSB2b3VzIG5vdXMgYXZleiBmb3VybmlzLCBvdSBwYXIgR0FCLCBwYXIgSW50ZXJuZXQsIHBhciBsYSBwb3N0ZSwgcGFyIGNvdXJyaWVsIG91IHBhciBkJ2F1dHJlcyBtb3llbnMuIFNpIHZvdXMgc291aGFpdGV6IHJldGlyZXIgdm90cmUgY29uc2VudGVtZW50LCByZXBvcnRleiB2b3VzIMOgIGxhIHJ1YnJpcXVlICDCqyZuYnNwO01hcmtldGluZyZuYnNwO8K7IGRlIGxhIDxhIHRpdGxlPSJQcml2YWN5IEFncmVlbWVudCIgaHJlZj0iaHR0cHM6Ly93d3cudGQuY29tL2ZyYW5jYWlzL2NvbmZpZGVudGlhbGl0ZS1ldC1zZWN1cml0ZS9jb25maWRlbnRpYWxpdGUtZXQtc2VjdXJpdGUvbm9zLWVuZ2FnZW1lbnRzLWEtbGVnYXJkLWRlLWxhLWNvbmZpZGVudGlhbGl0ZS9jb252ZW50aW9uLXN1ci1sYS1jb25maWRlbnRpYWxpdGUtZGUtbGEtYmFucXVlLXRkL2FncmVlbWVudC5qc3AiIHRhcmdldD0iX2JsYW5rIj5Db252ZW50aW9uIHN1ciBsYSBjb25maWRlbnRpYWxpdMOpIFREIGRlcyByZW5zZWlnbmVtZW50cyBwZXJzb25uZWxzPC9hPiBvdSBjb21tdW5pcXVleiBhdmVjIG5vdXMg",
+                        "contentType" : "HTML",
+                        "documentTypeCD" : "CCUDI_TC",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "yes",
+                        "order" : 4,
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "DL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Other",
+                        "documentName" : "Consentement au processus de v�rification de l�identit� en ligne",
+                        "documentNameFr" : "Consentement au processus de v�rification de l�identit� en ligne",
+                        "productId" : "DI_OSO_Auth",
+                        "documentCreateDT" : "MjAxNy0wMS0xNQ==",
+                        "productGroup" : "DI",
+                        "disclosureContent" : "PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCiAgPGhlYWQ+DQogIDxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4NCiAgICA8dGl0bGU+NTMwNzczIC0gQ29uc2VudCB0byBBYm91dCBPbmxpbmUgQXV0aGVudGljYXRpb24gKEZyKTwvdGl0bGU+DQogICAgICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLyotIFJFU0VUIC0qLw0KDQoJYm9keSwgZGl2LCBoMSwgaDIsIHAJew0KCQltYXJnaW46IDA7DQoJCXBhZGRpbmc6IDA7DQoJfQ0KCS8qLSBHRU5FUkFMIC0qLw0KCS5ib2R5X2Y1MzA3NzMJew0KCQliYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOw0KCQlmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsNCgkJZm9udC1zaXplOiAxM3B4Ow0KCQljb2xvcjogIzAwMDsNCgl9DQoNCgkuYm9keV9mNTMwNzczIC5jb250YWluZXIJew0KCQl3aWR0aDogMTAwJTsNCgkJYmFja2dyb3VuZC1jb2xvcjogI2ZmZjsJDQoJCXBhZGRpbmctdG9wOiAzMHB4Ow0KCQlwYWRkaW5nLWJvdHRvbTogMzBweDsNCgl9DQoNCgkuYm9keV9mNTMwNzczIC5zZWN0aW9uCXsNCgkJYm9yZGVyLWxlZnQ6IDFweCBzb2xpZCAjMDAwOw0KCQlib3JkZXItcmlnaHQ6IDFweCBzb2xpZCAjMDAwOw0KCQlib3JkZXItYm90dG9tOiAxcHggc29saWQgIzAwMDsNCgkJbWFyZ2luOiAwIDEwOHB4Ow0KCQlwYWRkaW5nOiAxMnB4IDZweCAyNHB4IDZweDsNCgl9DQoJDQoJLmJvZHlfZjUzMDc3MyAudG9wCXsNCgkJYm9yZGVyLXRvcDogMXB4IHNvbGlkICMwMDA7DQoJfQ0KCQ0KCS8qLSBURVhUIEZPUk1BVFRJTkcgLSovDQoNCgkuYm9keV9mNTMwNzczIGgyCXsNCgkJbWFyZ2luOiAwOw0KCQlmb250LXNpemU6IDEzcHg7DQoJCWZvbnQtd2VpZ2h0OiBib2xkOw0KCQlsaW5lLWhlaWdodDogMTVweDsNCgkJbWFyZ2luLWxlZnQ6IDMwcHg7DQoJCW1hcmdpbi1yaWdodDogMzBweDsNCgl9DQoNCgkuYm9keV9mNTMwNzczIHAJew0KCQlmb250LXNpemU6IDEzcHg7DQoJCWxpbmUtaGVpZ2h0OiAxNXB4Ow0KCQltYXJnaW4tbGVmdDogMzBweDsNCgkJbWFyZ2luLXJpZ2h0OiAzMHB4Ow0KCQltYXJnaW4tYm90dG9tOiAxMHB4Ow0KCX0NCg0KCS5ib2R5X2Y1MzA3NzMgYSwgLmJvZHlfZjUzMDc3MyBhOmxpbmssIC5ib2R5X2Y1MzA3NzMgYTp2aXNpdGVkLCAuYm9keV9mNTMwNzczIGE6aG92ZXIJew0KCQljb2xvcjogIzAwMCAhaW1wb3J0YW50Ow0KCQl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsNCgl9DQoNCiAgICA8L3N0eWxlPg0KDQogICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0icHJpbnQiPg0KCS8qLSBQUklOVCBTVFlMRVNIRUVUIC0qLw0KCS5ib2R5X2Y1MzA3NzMJew0KCQliYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOw0KCX0NCgkuYm9keV9mNTMwNzczIC5jb250YWluZXIJew0KCQl3aWR0aDogNTk0cHg7DQoJCW1hcmdpbjogMDsNCgkJcGFkZGluZzogMDsNCgl9DQoNCgkuYm9keV9mNTMwNzczIC5zZWN0aW9uCXsNCgkJbWFyZ2luOiAwOw0KCX0NCgkgICAgPC9zdHlsZT4NCg0KICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQogICAgPC9zdHlsZT4NCg0KICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9InByaW50Ij4NCiAgICAJLmJvZHlfZjUzMDc3MyAuc2VjdGlvbgl7DQogICAgCQl3aWR0aDogNTYwcHg7IA0KICAgIAkJcGFkZGluZzogM3B4Ow0KICAgIAl9DQoNCiAgICA8L3N0eWxlPg0KPC9oZWFkPg0KICA8Ym9keSBjbGFzcz0iYm9keV9mNTMwNzczIj4NCiAgPGRpdiBjbGFzcz0iYm9keV9mNTMwNzczIj4NCiAgPGRpdiBjbGFzcz0iY29udGFpbmVyIj4NCiAgICAgICAgPGgyPkNvbnNlbnRlbWVudCBhdXggbW9kYWxpdMOpcyBkdSBwcm9jZXNzdXMgZCdhdXRoZW50aWZpY2F0aW9uIGVuIGxpZ25lPC9oMj48YnIgLz4NCiAgICAgICAgPHA+RGFucyBsZSBjYWRyZSBkZSBub3RyZSBwcm9jZXNzdXMgZCdpZGVudGlmaWNhdGlvbiBkZSBsJ2lkZW50aXTDqSBlbiBsaWduZSwgbm91cyByZWNvdXJvbnMgw6AgdW4gcHJlc3RhdGFpcmUgZGUgc2VydmljZXMgZGUgcmVuc2VpZ25lbWVudHMgcG91cg0KY29uZmlybWVyIHZvdHJlIGlkZW50aXTDqS4gUG91ciB0cmFpdGVyIHZvdHJlIGRlbWFuZGUgZW4gbGlnbmUsIG5vdXMgZGV2b25zIHZvdXMgZGVtYW5kZXIgZGUgbm91cyBmb3VybmlyIGRlcyByZW5zZWlnbmVtZW50cyBwZXJzb25uZWxzLg0KTGVzIHJlbnNlaWduZW1lbnRzIHF1ZSB2b3VzIG5vdXMgY29tbXVuaXF1ZXogc2Vyb250IGNvbXBhcsOpcyBhdXggcmVuc2VpZ25lbWVudHMgY29uc2lnbsOpcyBkYW5zIGxlIHJhcHBvcnQgZGUgc29sdmFiaWxpdMOpIGRlIHBhcnRpY3VsaWVyDQpkYW5zIGxlIHNldWwgYnV0IGRlIGNvbmZpcm1lciB2b3RyZSBpZGVudGl0w6kuIERlIHBsdXMsIGxlIHByb2Nlc3N1cyBkZSB2w6lyaWZpY2F0aW9uIGRlIGwnaWRlbnRpdMOpIGVuIGxpZ25lIHBlcm1ldCBkZSBkw6l0ZXJtaW5lciBsZSBkaXNwb3NpdGlmIHF1ZQ0Kdm91cyB1dGlsaXNleiBwb3VyIGFjY8OpZGVyIGF1IHNpdGUuIExlIHJhcHBvcnQgZGUgc29sdmFiaWxpdMOpIGRlIHBhcnRpY3VsaWVyIGV0IGwnZW5yZWdpc3RyZW1lbnQgZHUgZGlzcG9zaXRpZiBzZXJ2ZW50IMOgIGNvbmZpcm1lciB2b3RyZSBpZGVudGl0w6kuDQpWb3VzIGF1dG9yaXNleiBjZXMgc291cmNlcyDDoCBub3VzIGZvdXJuaXIgY2VzIHJlbnNlaWduZW1lbnRzLg0KPGJyPjxicj4NCjxhIHRpdGxlPSJBdSBzdWpldCBkdSBwcm9jZXNzdXMgZCdpZGVudGlmaWNhdGlvbiBkZSBsJ2lkZW50aXTDqSBlbiBsaWduZSINCmhyZWY9Imh0dHBzOi8vd3d3LnRkY2FuYWRhdHJ1c3QuY29tL2Vhc3l3ZWI1L2Rpc2Nsb3N1cmUvY29uc2VudC9mNTMwNzczLzIwMTAwODAxX0hUTUwvZjUzMDc3M2EuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPkF1IHN1amV0IGR1IHByb2Nlc3N1cyBkJ2lkZW50aWZpY2F0aW9uIGRlIGwnaWRlbnRpdMOpIGVuIGxpZ25lPC9hPi48L3A+DQo8YnI+DQo8cD41MzA3NzMgKDEwMTUpPC9wPg0KICAgIDwvZGl2Pg0KCTwvZGl2Pg0KICAgIDwvYm9keT4NCjwvaHRtbD4=",
+                        "contentType" : "HTML",
+                        "documentTypeCD" : "OSO_Auth",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "yes",
+                        "order" : 5,
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "DL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Other",
+                        "documentName" : "Consentement � la livraison �lectronique des documents",
+                        "documentNameFr" : "Consentement � la livraison �lectronique des documents",
+                        "productId" : "DI_CEDD_A",
+                        "documentCreateDT" : "MjAxOC0wMS0yOQ==",
+                        "productGroup" : "DI",
+                        "disclosureContent" : "PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCiAgPGhlYWQ+DQogIDxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4NCiAgPHRpdGxlPkNvbnNlbnQgdG8gRWxlY3Ryb25pYyBEZWxpdmVyeSBvZiBEb2N1bWVudHMgPC90aXRsZT4NCjwhLS0gU0NSRUVOIFNUWUxFU0hFRVQgLS0+DQoNCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9ImFsbCI+DQoNCg0KLyotIFJFU0VUIC0qLw0KDQouYm9keV9mODAwODk3IHttYXJnaW46IDFlbSAxZW0gM2VtIDFlbTsgYmFja2dyb3VuZC1jb2xvcjogI0ZGRjsgZm9udC1mYW1pbHk6ICJSb2JvdG8iLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGNvbG9yOiAjMDAwOyBmb250LXNpemU6c21hbGw7IH0NCg0KLmJvZHlfZjgwMDg5NyBoMSB7Zm9udC1zaXplOjEuNWVtOyBtYXJnaW46MCAwIC4yNWVtOyAwfQ0KDQouYm9keV9mODAwODk3IGgxIGltZwl7DQoJd2lkdGg6IDQ1cHg7DQoJaGVpZ2h0OiAzOHB4Ow0KCWRpc3BsYXk6IGJsb2NrOw0KCWZsb2F0OiBsZWZ0Ow0KfQ0KDQouYm9keV9mODAwODk3IGgyIHtmb250LXNpemU6MS4zZW07IG1hcmdpbjowO30NCg0KLmJvZHlfZjgwMDg5NyBwLCAuYm9keV9mODAwODk3IGgzIHtmb250LXNpemU6MWVtO30NCg0KLmJvZHlfZjgwMDg5NyBoMyB7bWFyZ2luLXRvcDoxZW07IG1hcmdpbi1ib3R0b206LjNlbTt9DQoNCi5ib2R5X2Y4MDA4OTcgcCB7bWFyZ2luLXRvcDowOyBtYXJnaW4tYm90dG9tOjFlbTt9DQoNCi5ib2R5X2Y4MDA4OTcgaDEgc3VwIHtmb250LXNpemU6IDgwJTsgbGluZS1oZWlnaHQ6IDFwdDsgfQ0KDQouYm9keV9mODAwODk3IC5mb3JtLW51bWJlciB7Zm9udC1zaXplOiAuNmVtOyB0ZXh0LWFsaWduOnJpZ2h0O30NCg0KLmJvZHlfZjgwMDg5NyB1bCwgLmJvZHlfZjgwMDg5NyBsaSB7bWFyZ2luOjA7IHBhZGRpbmc6MDt9DQoNCi5ib2R5X2Y4MDA4OTcgbGkge21hcmdpbjouMjVlbSAwIC4yNWVtIDIuNWVtO30NCg0KLmxldmVsMSBsaSB7bWFyZ2luLWxlZnQ6My41ZW07fQ0KDQoubGV2ZWwyIGxpIHttYXJnaW4tbGVmdDo0LjVlbTt9DQoNCi5wYXJhYm9sZCAge2ZvbnQtd2VpZ2h0OmJvbGQ7fQ0KDQo8L3N0eWxlPg0KDQo8L2hlYWQ+DQoNCgkNCg0KIDxib2R5IGNsYXNzPSJib2R5X2Y4MDA4OTciPg0KDQogPGgxPjxpbWcgYWx0PSJURCBDYW5hZGEgVHJ1c3QiIHNyYz0iaHR0cHM6Ly93d3cudGRjYW5hZGF0cnVzdC5jb20vaW1hZ2VzL2Vhc3l3ZWI1L2Rpc2Nsb3N1cmUvY29uc2VudC9URC5qcGciLz4NCiA8YnIgLz48YnI+PC9oMT48YnI+DQoNCjxwPk5vdXMgZGV2b25zIG9idGVuaXIgdm90cmUgY29uc2VudGVtZW50IHBvdXIgcG91dm9pciB2b3VzIGVudm95ZXIgZGVzIGRvY3VtZW50cyBwYXIgdm9pZSDDqWxlY3Ryb25pcXVlLCB0YW50IGRhbnMgbGUgY2FkcmUgZGUgbCdvdXZlcnR1cmUgZHUgY29tcHRlIHF1ZSBzdXIgdW5lIGJhc2UgY29udGludWUuPC9wPg0KDQoNCjxici8+DQo8cCBjbGFzcz0iZm9ybS1udW1iZXIiPjgwMDg5NyAoMDExOCk8L3A+DQoNCjwvYm9keT4NCjwvaHRtbD4=",
+                        "contentType" : "HTML",
+                        "documentTypeCD" : "CEDD_A",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "yes",
+                        "order" : 6,
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "DL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Margin",
+                        "documentName" : "Convention de compte avec Marge",
+                        "documentNameFr" : "Convention de compte avec Marge",
+                        "productId" : "DI_MAA",
+                        "documentCreateDT" : "MjAxOC0wMS0yOQ==",
+                        "productGroup" : "DI",
+                        "disclosureContent" : "PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCiAgPGhlYWQ+DQogIDxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4NCiAgPHRpdGxlPk1hcmdpbiBBY2NvdW50IEFncmVlbWVudDwvdGl0bGU+DQo8IS0tIFNDUkVFTiBTVFlMRVNIRUVUIC0tPg0KDQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiIG1lZGlhPSJhbGwiPg0KDQoNCi8qLSBSRVNFVCAtKi8NCg0KLmJvZHlfZjgwMDk3NyB7bWFyZ2luOiAxZW0gMWVtIDNlbSAxZW07IGJhY2tncm91bmQtY29sb3I6ICNGRkY7IGZvbnQtZmFtaWx5OiAiUm9ib3RvIiwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyBjb2xvcjogIzAwMDsgZm9udC1zaXplOnNtYWxsOyB9DQoNCi5ib2R5X2Y4MDA5NzcgaDEge2ZvbnQtc2l6ZToxLjVlbTsgbWFyZ2luOjAgMCAuMjVlbTsgMH0NCg0KLmJvZHlfZjgwMDk3NyBoMSBpbWcJew0KCXdpZHRoOiA0NXB4Ow0KCWhlaWdodDogMzhweDsNCglkaXNwbGF5OiBibG9jazsNCglmbG9hdDogbGVmdDsNCn0NCg0KLmJvZHlfZjgwMDk3NyBoMiB7Zm9udC1zaXplOjEuM2VtOyBtYXJnaW46MDt9DQoNCi5ib2R5X2Y4MDA5NzcgcCwgLmJvZHlfZjgwMDk3NyBoMyB7Zm9udC1zaXplOjFlbTt9DQoNCi5ib2R5X2Y4MDA5NzcgaDMge21hcmdpbi10b3A6MWVtOyBtYXJnaW4tYm90dG9tOi4zZW07fQ0KDQouYm9keV9mODAwOTc3IHAge21hcmdpbi10b3A6MDsgbWFyZ2luLWJvdHRvbToxZW07fQ0KDQouYm9keV9mODAwOTc3IGgxIHN1cCB7Zm9udC1zaXplOiA4MCU7IGxpbmUtaGVpZ2h0OiAxcHQ7IH0NCg0KLmJvZHlfZjgwMDk3NyAuZm9ybS1udW1iZXIge2ZvbnQtc2l6ZTogLjZlbTsgdGV4dC1hbGlnbjpyaWdodDt9DQoNCi5ib2R5X2Y4MDA5NzcgdWwsIC5ib2R5X2Y4MDA5NzcgbGkge21hcmdpbjowOyBwYWRkaW5nOjA7fQ0KDQouYm9keV9mODAwOTc3IGxpIHttYXJnaW46LjI1ZW0gMCAuMjVlbSAyLjVlbTt9DQoNCi5sZXZlbDEgbGkge21hcmdpbi1sZWZ0OjMuNWVtO30NCg0KLmxldmVsMiBsaSB7bWFyZ2luLWxlZnQ6NC41ZW07fQ0KDQoucGFyYWJvbGQgIHtmb250LXdlaWdodDpib2xkO30NCg0KPC9zdHlsZT4NCg0KPC9oZWFkPg0KDQoJDQoNCiA8Ym9keSBjbGFzcz0iYm9keV9mODAwOTc3Ij4NCg0KIDxoMT48aW1nIGFsdD0iVEQgQ2FuYWRhIFRydXN0IiBzcmM9Imh0dHBzOi8vd3d3LnRkY2FuYWRhdHJ1c3QuY29tL2ltYWdlcy9lYXN5d2ViNS9kaXNjbG9zdXJlL2NvbnNlbnQvVEQuanBnIi8+DQogPGJyIC8+PGJyPkNvbnZlbnRpb24gZGUgY29tcHRlIGF2ZWMgIG1hcmdlPC9oMT48YnI+DQoNCjxwPlNpIG5vdXMgdm91cyBwZXJtZXR0b25zIGRlIG7DqWdvY2llciBkZXMgdGl0cmVzIHN1ciBtYXJnZSwgdm91cyBhY2NlcHRleiBkJ8OqdHJlIGxpw6kgcGFyIGxlcyBtb2RhbGl0w6lzIHN1aXZhbnRlcywgcXVpIHMnYXBwbGlxdWVudCDDoCBjaGFxdWUgY29tcHRlIGF2ZWMgbWFyZ2UgcXVlIHZvdXMgb3V2cmV6IGF1cHLDqHMgZGUgbm91cywgZXQgcGFyIGxlcyBtb2RhbGl0w6lzIGRlIGxhIENvbnZlbnRpb24gZGUgY29tcHRlIGF1IGNvbXB0YW50LCB0ZWwgcXUnaWwgZXN0IHByw6l2dSBjaS1hcHLDqHMuPC9wPg0KPHA+PGI+MS4gJm5ic3A7R2FyZGUgZXQgbmFudGlzc2VtZW50IGRlIHRpdHJlcyZuYnNwOzo8L2I+IFRvdXRlIHPDu3JldMOpIGFjY2Vzc29pcmUgcXVlIHZvdXMgbm91cyBmb3Vybmlzc2V6IGxvcnNxdWUgdm91cyDDqnRlcyBlbmRldHTDqSBlbnZlcnMgbm91cyBzZXJhIGTDqXRlbnVlIMOgIGwnZW1wbGFjZW1lbnQgZGUgbm90cmUgY2hvaXguIFRvdXQgdGl0cmUgdm91cyBhcHBhcnRlbmFudCBxdWUgbm91cyBwb3V2b25zIGF2b2lyIGVuIG5vdHJlIHBvc3Nlc3Npb24sIGxvcnNxdWUgdm91cyDDqnRlcyBlbmRldHTDqSBlbnZlcnMgbm91cywgcGV1dCDDqnRyZSB0cmFuc3BvcnTDqSwgc2FucyBwcsOpYXZpcywgZW4gZ2FyYW50aWUgZGUgdG91dGUgZGV0dGUgZCd1biBtb250YW50IGluZsOpcmlldXIgb3Ugc3Vww6lyaWV1ciBhdSBtb250YW50IHF1ZSB2b3VzIG5vdXMgZGV2ZXouIFVuIHRlbCBuYW50aXNzZW1lbnQgcGV1dCDDqnRyZSBlZmZlY3R1w6kgc8OpcGFyw6ltZW50IG91IGNvbmpvaW50ZW1lbnQgYXZlYyBkJ2F1dHJlcyB0aXRyZXMgcXVlIG5vdXMgZMOpdGVub25zLiBOb3VzIHBvdXZvbnMgcHLDqnRlciBjZXMgdGl0cmVzIGVuIHRvdXQgb3UgZW4gcGFydGllLCBzw6lwYXLDqW1lbnQgb3UgY29uam9pbnRlbWVudCBhdmVjIGQnYXV0cmVzIHRpdHJlcy4gTm91cyBub3VzIHLDqXNlcnZvbnMgbGUgZHJvaXQgZCdhbm51bGVyIGwnYWNjw6hzIMOgIGxhIG1hcmdlIHF1aSB2b3VzIGEgw6l0w6kgYWNjb3Jkw6llIMOgIG5vdHJlIGFwcHLDqWNpYXRpb24gw6AgdG91dCBtb21lbnQgc2FucyBwcsOpYXZpcy48L3A+DQo8cD48Yj4yLiAmbmJzcDtUcmFuc2ZlcnRzIGVudHJlIGNvbXB0ZXMmbmJzcDs6PC9iPiBOb3VzIHBvdXZvbnMgdHJhbnNmw6lyZXIgw6Agdm90cmUgY29tcHRlIGF2ZWMgbWFyZ2UsIMOgIHRvdXQgbW9tZW50LCDDoCBsYSBzdWl0ZSBkJ3VuZSBvcMOpcmF0aW9uLCB0b3V0IHNvbGRlIGNyw6lkaXRldXIgZGUgbidpbXBvcnRlIGxlcXVlbCBkZSB2b3MgYXV0cmVzIGNvbXB0ZXMsIHkgY29tcHJpcyBsZXMgc29sZGVzIGNyw6lkaXRldXJzIGxpYnJlcyBkZSB2b3RyZSBjb21wdGUgYXZlYyBtYXJnZS4gVW4gdGVsIHRyYW5zZmVydCBwb3VycmFpdCDDqnRyZSBzdWZmaXNhbnQgcG91ciBlZmZlY3R1ZXIgbGUgcGFpZW1lbnQgaW50w6lncmFsIGRlIGwnb3DDqXJhdGlvbi4gVm91cyBhY2NlcHRleiBxdWUgdG91dCBkw6liaXQgcG9ydMOpIMOgIG4naW1wb3J0ZSBsZXF1ZWwgZGUgdm9zIGNvbXB0ZXMgc29pdCB0cmFuc2bDqXLDqSBwYXIgbm91cywgw6Agbm90cmUgY2hvaXgsIMOgIHZvdHJlIGNvbXB0ZSBhdmVjIG1hcmdlLjwvcD4NCjxwPjxiPjMuICZuYnNwO09ibGlnYXRpb24gZGUgbWFpbnRlbmlyIHVuZSBtYXJnZSZuYnNwOzo8L2I+IFZvdXMgbWFpbnRpZW5kcmV6IGRlcyBtYXJnZXMgZXQgcGFpZXJleiBsZXMgc29sZGVzIGR1cyBkYW5zIGwndW4gZGUgdm9zIGNvbXB0ZXMsIHRlbCBxdWUgbm91cyBwb3V2b25zIGwnZXhpZ2VyIMOgIGwnb2NjYXNpb24sIMOgIG5vdHJlIGdyw6kgYWJzb2x1LiBEYW5zIGxlIGNhcyBvw7kgdm91cyBuZSByZXNwZWN0ZXJpZXogcGFzIGxlcyBhcHBlbHMgZGUgbWFyZ2UgcmFwaWRlbWVudCwgbm91cyBwb3V2b25zLCBzYW5zIHZvdXMgZG9ubmVyIGRlIHByw6lhdmlzJm5ic3A7OjwvcD4NCjxwPjxiPiYjOTY3OTsgJm5ic3A7PC9iPiBlZmZlY3R1ZXIgbGVzIGTDqW1hcmNoZXMgbsOpY2Vzc2FpcmVzIHBvdXIgcHJvdMOpZ2VyIG5vcyBpbnTDqXLDqnRzIHJlbGF0aXZlbWVudCBhdXggb3DDqXJhdGlvbnMgZCdvcHRpb25zIGQnYWNoYXQgZXQgZGUgdmVudGUgZWZmZWN0dcOpZXMgcG91ciB2b3RyZSBjb21wdGUsIHkgY29tcHJpcyBsZSBkcm9pdCBkJ2FjaGV0ZXIgb3UgZGUgdmVuZHJlIHBvdXIgdm90cmUgY29tcHRlLCBldCDDoCB2b3RyZSByaXNxdWUgdG91dGVzIGxlcyBhY3Rpb25zIG91IHVuZSBwYXJ0aWUgZGUgY2VsbGVzLWNpIHJlcHLDqXNlbnTDqWVzIHBhciBkZXMgb3B0aW9ucyBlZmZlY3R1w6llcyBwYXIgbm91cyBwb3VyIHZvdHJlIGNvbXB0ZTsgPC9wPg0KPHA+PGI+JiM5Njc5OyAmbmJzcDs8L2I+IGFjaGV0ZXIgcG91ciB2b3RyZSBjb21wdGUgZXQgw6Agdm90cmUgcmlzcXVlIGxlcyBvcHRpb25zIGQnYWNoYXQgb3Ug",
+                        "contentType" : "HTML",
+                        "documentTypeCD" : "MAA",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "yes",
+                        "order" : 7,
+                        "inlineContent" : "",
+                        "disclosureDisplayType" : "DL",
+                        "showConsentLabel" : false
+                    }, 
+                    {
+                        "section" : "Margin",
+                        "documentName" : "FR_Credit Bureau for Margin Account",
+                        "documentNameFr" : "FR_Credit Bureau for Margin Account",
+                        "productId" : "DI_CBMA",
+                        "documentCreateDT" : "MjAxOC0wMS0yOQ==",
+                        "productGroup" : "DI",
+                        "contentType" : "HTML",
+                        "documentTypeCD" : "CBMA",
+                        "displayPage" : "gettingStarted",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "yes",
+                        "order" : 8,
+                        "inlineContent" : "PGRpdj48cD5Db25zZW50ZW1lbnQgw6AgbGEgdsOpcmlmaWNhdGlvbiBkZSBjcsOpZGl0PC9wPjxwPk5vdXMgw6ljaGFuZ2Vyb25zIHZvcyByZW5zZWlnbmVtZW50cyBwZXJzb25uZWxzIGV0IGZpbmFuY2llcnMgYXZlYyBkZXMgYWdlbmNlcyBk4oCZw6l2YWx1YXRpb24gZHUgY3LDqWRpdCAgIGV0IGTigJlhdXRyZXMgcHLDqnRldXJzIGF1IG1vbWVudCBkdSBkw6lww7R0IGRlIHZvdHJlIGRlbWFuZGUgcG91ciB1biBjb21wdGUgYXZlYyBtYXJnZSBldCBkZSBmYcOnb24gY29udGludWUgcG91ciA8YSBocmVmPSdkaXNjbG9zdXJlQ29udGVudC5odG1sIz9kb2N1bWVudElkPURJX0NCTUEmbGFuZz1mcl9DQScgdGFyZ2V0PSdfYmxhbmsnPmxlcyBmaW5zIGTDqWNyaXRlcy48L2E+IEVuIGNvY2hhbnQgbGEgY2FzZSBkZSBjb25zZW50ZW1lbnQgY2ktZGVzc291cywgdm91cyBjb25zZW50ZXogw6AgY2V0IMOpY2hhbmdlIGRlIHJlbnNlaWduZW1lbnRzLiBWb3VzIG5lIHBvdXZleiBwYXMgcmV0aXJlciBjZSBjb25zZW50ZW1lbnQuIFNpIHZvdXMgbmUgZG9ubmV6IHBhcyB2b3RyZSBjb25zZW50ZW1lbnQsIHZldWlsbGV6IGNob2lzaXIgdW4gYXV0cmUgdHlwZSBkZSBjb21wdGUgb3UgYW5udWxlciB2b3RyZSBkZW1hbmRlLiA8YSBocmVmPSdkaXNjbG9zdXJlQ29udGVudC5odG1sIz9kb2N1bWVudElkPURJX0NCTUEmbGFuZz1mcl9DQScgdGFyZ2V0PSdfYmxhbmsnPkVuIHNhdm9pciBwbHVzIHN1ciBjZSBjb25zZW50ZW1lbnQuPC9hPjxhPjwvYT48L3A+PHA+PC9wPjwvZGl2Pg==",
+                        "inlineContentFr" : "PGRpdj48cD5Db25zZW50ZW1lbnQgw6AgbGEgdsOpcmlmaWNhdGlvbiBkZSBjcsOpZGl0PC9wPjxwPk5vdXMgw6ljaGFuZ2Vyb25zIHZvcyByZW5zZWlnbmVtZW50cyBwZXJzb25uZWxzIGV0IGZpbmFuY2llcnMgYXZlYyBkZXMgYWdlbmNlcyBk4oCZw6l2YWx1YXRpb24gZHUgY3LDqWRpdCAgIGV0IGTigJlhdXRyZXMgcHLDqnRldXJzIGF1IG1vbWVudCBkdSBkw6lww7R0IGRlIHZvdHJlIGRlbWFuZGUgcG91ciB1biBjb21wdGUgYXZlYyBtYXJnZSBldCBkZSBmYcOnb24gY29udGludWUgcG91ciA8YSBocmVmPSdkaXNjbG9zdXJlQ29udGVudC5odG1sIz9kb2N1bWVudElkPURJX0NCTUEmbGFuZz1mcl9DQScgdGFyZ2V0PSdfYmxhbmsnPmxlcyBmaW5zIGTDqWNyaXRlcy48L2E+IEVuIGNvY2hhbnQgbGEgY2FzZSBkZSBjb25zZW50ZW1lbnQgY2ktZGVzc291cywgdm91cyBjb25zZW50ZXogw6AgY2V0IMOpY2hhbmdlIGRlIHJlbnNlaWduZW1lbnRzLiBWb3VzIG5lIHBvdXZleiBwYXMgcmV0aXJlciBjZSBjb25zZW50ZW1lbnQuIFNpIHZvdXMgbmUgZG9ubmV6IHBhcyB2b3RyZSBjb25zZW50ZW1lbnQsIHZldWlsbGV6IGNob2lzaXIgdW4gYXV0cmUgdHlwZSBkZSBjb21wdGUgb3UgYW5udWxlciB2b3RyZSBkZW1hbmRlLiA8YSBocmVmPSdkaXNjbG9zdXJlQ29udGVudC5odG1sIz9kb2N1bWVudElkPURJX0NCTUEmbGFuZz1mcl9DQScgdGFyZ2V0PSdfYmxhbmsnPkVuIHNhdm9pciBwbHVzIHN1ciBjZSBjb25zZW50ZW1lbnQuPC9hPjxhPjwvYT48L3A+PHA+PC9wPjwvZGl2Pg==",
+                        "disclosureDisplayType" : "INLINE",
+                        "showConsentLabel" : false
+                    }
+                ],
+                "connectId" : null,
+                "consentAgreements" : null
+            },
+            "credentialConsentInfo" : {
+                "consentDateTimeStamp" : null,
+                "consentSignedDate" : null,
+                "customerShareInfo" : false,
+                "signedName" : null,
+                "offSignature" : null,
+                "ipAddress" : null,
+                "sessionId" : null,
+                "communicationLanguageCD" : null,
+                "appId" : null,
+                "subAppId" : null,
+                "familyName" : null,
+                "disclosureDocumentInfoList" : [ 
+                    {
+                        "section" : "Other",
+                        "documentName" : "Signature Card",
+                        "documentNameFr" : "fr_Signature Card",
+                        "productId" : "DI_CR_SC_TC",
+                        "productGroup" : "DI",
+                        "displayPage" : "credentialsSetup",
+                        "wcm" : "yes",
+                        "link" : "",
+                        "capture" : "yes",
+                        "inlineContent" : "V2Ugd2lsbCBleGNoYW5nZSB5b3VyIHBlcnNvbmFsIGFuZCBmaW5hbmNpYWwgaW5mb3JtYXRpb24gd2l0aCBjcmVkaXQgcmVwb3J0aW5nIGFnZW5jaWVzIGFuZCBvdGhlciBsZW5kZXJzIGR1cmluZyB0aGUgYXBwbGljYXRpb24gcHJvY2VzcyBmb3IgdGhlIE1hcmdpbiBhY2NvdW50IGFuZCBvbiBhbiBvbmdvaW5nIGJhc2lzIGZvciB0aGUgcHVycG9zZXMgZGVzY3JpYmVkLiBCeSBjaGVja2luZyB0aGUgYm94LCB5b3UgY29uc2VudCB0byB0aGlzIGV4Y2hhbmdlIG9mIHlvdXIgaW5mb3JtYXRpb24uIFlvdSBtYXkgbm90IHdpdGhkcmF3IHRoaXMgY29uc2VudC4gSWYgeW91IGRvIG5vdCBjb25zZW50LCBwbGVhc2Ugc2VsZWN0IGFub3RoZXIgdHlwZSBvZiBhY2NvdW50IG9yIGNhbmNlbCB5b3VyIGFwcGxpY2F0aW9uLg==",
+                        "disclosureDisplayType" : "INLINE"
+                    }
+                ],
+                "connectId" : null
+            },
+            "contractConsentInfo" : {
+                "consentDateTimeStamp" : null,
+                "consentSignedDate" : null,
+                "customerShareInfo" : false,
+                "signedName" : null,
+                "offSignature" : null,
+                "ipAddress" : null,
+                "sessionId" : null,
+                "communicationLanguageCD" : null,
+                "appId" : null,
+                "subAppId" : null,
+                "familyName" : null,
+                "disclosureDocumentInfoList" : [],
+                "connectId" : "L0A0A274"
+            },
+            "loginConsentInfo" : {
+                "consentDateTimeStamp" : null,
+                "consentSignedDate" : null,
+                "customerShareInfo" : false,
+                "signedName" : null,
+                "offSignature" : null,
+                "ipAddress" : null,
+                "sessionId" : null,
+                "communicationLanguageCD" : null,
+                "appId" : null,
+                "subAppId" : null,
+                "familyName" : null,
+                "disclosureDocumentInfoList" : [],
+                "connectId" : null
+            },
+            "partnerInfo" : {
+                "employmentInfo" : {
+                    "statusCd" : "UNEMPLOYED",
+                    "industry" : "200",
+                    "occupation" : "200010",
+                    "employerName" : "LSE",
+                    "address" : {
+                        "country" : null,
+                        "province" : null
+                    },
+                    "employerPhoneCountryCode" : "1-CA",
+                    "clarifyEmployment" : false,
+                    "annualIncome" : 0
+                },
+                "SIN" : "111111118",
+                "firstName" : "Jane",
+                "lastName" : "Rock"
+            },
+            "eligibilityInfo" : {
+                "clientMasterAccountInfoList" : [ 
+                    {
+                        "accountId" : "1000008215",
+                        "accountNum" : "045J00K",
+                        "haltTradeInd" : false,
+                        "bookOfBusinessCd" : "RM01",
+                        "accountTyp" : null
+                    }
+                ],
+                "creditScore" : null,
+                "qualifiedInvestorInd" : false
+            },
+            "isWBCredentialsRequired" : false
+        },
+        "products" : [ 
+            {
+                "productId" : "ITF",
+                "name" : "ITF",
+                "shortName" : "ITF",
+                "shortDescription" : "ITF",
+                "description" : "ITF",
+                "showUSCitizenQuestion" : true,
+                "showOtherCountryTax" : true,
+                "features" : []
+            }
+        ],
+        "aboutAllApplicantsAndParties" : [ 
+            {
+                "profileId" : "0",
+                "profileType" : "PRIMARY_APPLICANT",
+                "profileRoles" : [],
+                "personalInfo" : {
+                    "title" : "DR",
+                    "firstName" : "Jet",
+                    "lastName" : "Yue",
+                    "middleName" : "Rock",
+                    "preferredName" : " ",
+                    "suffix" : "SR",
+                    "SIN" : "789557790",
+                    "language" : "en",
+                    "citizenship" : "CA",
+                    "maritalStatus" : "M",
+                    "numOfDependants" : 10,
+                    "isCanadaTaxResident" : "Y",
+                    "eligibilityFailed" : "N",
+                    "isPreferredNameSameAsLegal" : "N",
+                    "isDualCitizen" : false,
+                    "isNewToBank" : true,
+                    "isNewToWealth" : false,
+                    "isExisting" : false,
+                    "isUSCitizen" : "N",
+                    "isResidentOfOtherCountry" : "N",
+                    "DOB" : "1954-01-09"
+                },
+                "contactInfo" : {
+                    "mailingAddressSameAsLegal" : false
+                },
+                "financialInfo" : {
+                    "financialInstitutions" : []
+                },
+                "tcConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "electronicAccountConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "digitalSignatureConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "marginConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "credentialConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "contractConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "loginConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "transferTypeConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "transferTCConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "importantConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "branchTcConsentInfo" : {
+                    "consentDateTimeStamp" : null,
+                    "consentSignedDate" : null,
+                    "customerShareInfo" : false,
+                    "signedName" : null,
+                    "offSignature" : null,
+                    "ipAddress" : null,
+                    "sessionId" : null,
+                    "communicationLanguageCD" : null,
+                    "appId" : null,
+                    "subAppId" : null,
+                    "familyName" : null,
+                    "disclosureDocumentInfoList" : null,
+                    "connectId" : null,
+                    "consentAgreements" : null
+                },
+                "aboutYouFrozen" : false,
+                "supplementFormFlags" : {
+                    "w8Ben" : null,
+                    "w9Woc" : null,
+                    "visaWp" : null
+                },
+                "eligibilityInfo" : {
+                    "clientMasterAccountInfoList" : null,
+                    "creditScore" : null,
+                    "marginCBSCheck" : false,
+                    "qualifiedInvestorInd" : null
+                },
+                "fileNetDocumentList" : []
+            }, 
+            {
+                "profileId" : "1",
+                "profileType" : "CO_APPLICANT",
+                "profileRoles" : [],
+                "personalInfo" : {
+                    "title" : "MR",
+                    "firstName" : "xxxx",
+                    "lastName" : "Lee",
+                    "middleName" : "",
+                    "preferredName" : " ",
+                    "suffix" : null,
+                    "SIN" : "789557790",
+                    "language" : "en",
+                    "citizenship" : "CA",
+                    "maritalStatus" : "M",
+                    "numOfDependants" : 10,
+                    "isCanadaTaxResident" : "Y",
+                    "eligibilityFailed" : "N",
+                    "isPreferredNameSameAsLegal" : "N",
+                    "isDualCitizen" : false,
+                    "isNewToBank" : true,
+                    "isNewToWealth" : false,
+                    "isExisting" : false,
+                    "isUSCitizen" : "N",
+                    "isResidentOfOtherCountry" : "N",
+                    "DOB" : "1954-01-09",
+                    "relationship" : "SPOUSE"
+                },
+                "contactInfo" : {
+                    "countryCode" : "1-CA",
+                    "phoneNumber" : "3344556677",
+                    "phoneType" : "MOBILE",
+                    "email" : "abc@abcd.com",
+                    "legalAddress" : {
+                        "country" : "CA",
+                        "unitNumber" : "701",
+                        "unitType" : "ROOM",
+                        "streetNumber" : "79",
+                        "streetAddress" : "Wellington St. West",
+                        "city" : "Toronto",
+                        "province" : "ON",
+                        "postalCode" : "M2M 2M2"
+                    },
+                    "mailingAddress" : {
+                        "country" : "CA",
+                        "unitNumber" : "701",
+                        "unitType" : "ROOM",
+                        "streetNumber" : "79",
+                        "streetAddress" : "Wellington St. West",
+                        "city" : "Toronto",
+                        "province" : "ON",
+                        "postalCode" : "M2M 2M2",
+                        "clarifyMailingProvince" : false,
+                        "relationshipId" : null,
+                        "addressId" : null
+                    },
+                    "secondaryPhones" : [],
+                    "clarifyPhone" : false
+                }
+            }, 
+            {
+                "idCaptureInfo" : [],
+                "profileId" : "2",
+                "profileType" : "THIRD_PARTY",
+                "profileRoles" : [ 
+                    "POA"
+                ],
+                "personalInfo" : {
+                    "suffix" : null,
+                    "title" : null,
+                    "firstName" : "FFFFF",
+                    "lastName" : "lee"
+                },
+                "contactInfo" : {
+                    "secondaryPhones" : []
+                },
+                "relatedPartyRelationship" : "SIBLING",
+            }
+        ],
+        "aboutAllApplicantsAndPartiesSummary" : [ 
+            {
+                "email" : null,
+                "name" : "PRIMARY_APPLICANT",
+                "profileId" : "0",
+                "profileRoles" : [],
+                "profileType" : "PRIMARY_APPLICANT",
+                "sin" : "789557790"
+            }, 
+            {
+                "email" : "abc@abcd.com",
+                "name" : "xxxx Lee",
+                "profileId" : "1",
+                "profileRoles" : [],
+                "profileType" : "CO_APPLICANT",
+                "sin" : "789557790"
+            }, 
+            {
+                "email" : null,
+                "name" : "FFFFF lee",
+                "profileId" : "2",
+                "profileRoles" : [],
+                "profileType" : "THIRD_PARTY",
+                "sin" : ""
+            }
+        ],
+        "userIdentity" : {
+            "userType" : "N2B",
+            "channel" : "Branch",
+            "aliasName" : "abcd1234",
+            "connectId" : "T0F6A3R8",
+            "accessCard" : null,
+            "cmMasterClientId" : "051M02",
+            "clientType" : "PROI",
+            "cifId" : null,
+            "applicationId" : "573698",
+            "externalRefNumber" : null,
+            "hasAccessCard" : false,
+            "sourceApplication" : null,
+            "subApplicationList" : null,
+            "unverifiedWebborkerCredential" : null,
+            "lineOfBusiness" : "FP"
+        },
+        "otherEntities" : [ 
+            {
+                "id" : "07b06320-2b3d-fd66-57de-ee0f4b1185ea",
+                "firstName" : null,
+                "lastName" : null,
+                "relationship" : "COMPLIANCE-DEPARTMENT",
+                "legalName" : "ibm",
+                "address" : {
+                    "city" : "Toronto",
+                    "country" : "US",
+                    "postalCode" : "M5H 3M9",
+                    "province" : null,
+                    "streetAddress" : "Queen Street West",
+                    "streetNumber" : "123",
+                    "unitType" : null,
+                    "unitNumber" : "",
+                    "hasResidedMoreThan182Days" : null
+                },
+                "entityRoles" : [ 
+                    "RECIPIENT"
+                ],
+                "isBusiness" : true,
+                "entityType" : "BUSINESS",
+                "middleName" : null,
+                "suffix" : null,
+                "title" : null,
+                "otherRelationshipDesc" : null
+            }
+        ],
+        "duplicateStatements" : [ 
+            {
+                "id" : "07b06320-2b3d-fd66-57de-ee0f4b1185ea",
+                "receiverType" : "RECIPIENT",
+                "isConfirmations" : false,
+                "isStatements" : true,
+                "selectionCount" : 1
+            }
+        ],
+        "lastApplicationState" : {
+            "state" : "eo/investing/",
+            "card" : "button-card-clientProfile"
+        },
+        "leftNav" : {
+            "gettingStarted" : "VALID",
+            "coapplicants" : "VALID",
+            "relatedParty" : "VALID",
+            "accountApplicationInfo" : "VALID",
+            "leftNavApplicantDetails" : [ 
+                {
+                    "profileId" : "0",
+                    "name" : "PRIMARY_APPLICANT",
+                    "clientProfile" : "INVALID",
+                    "financialInfo" : "INVALID",
+                    "investmentInfo" : "INVALID",
+                    "profileType" : "PRIMARY_APPLICANT"
+                }, 
+                {
+                    "profileId" : "1",
+                    "name" : "xxxx Lee",
+                    "clientProfile" : "INVALID",
+                    "financialInfo" : "INVALID",
+                    "investmentInfo" : "INVALID",
+                    "profileType" : "CO_APPLICANT"
+                }, 
+                {
+                    "clientProfile" : null,
+                    "financialInfo" : null,
+                    "investmentInfo" : null,
+                    "name" : "FFFFF lee",
+                    "profileId" : "2",
+                    "profileType" : "THIRD_PARTY"
+                }
+            ],
+            "accountDetails" : "INVALID",
+            "rrsp" : "INVALID",
+            "srsp" : "HIDE",
+            "lira" : "VALID",
+            "lrsp" : null,
+            "rlsp" : null,
+            "rrif" : "HIDE",
+            "srif" : "HIDE",
+            "lif" : null,
+            "rlif" : "HIDE",
+            "lrif" : null,
+            "prif" : "HIDE",
+            "tfsa" : "HIDE",
+            "cash" : "HIDE",
+            "margin" : "HIDE",
+            "esp" : "HIDE",
+            "dsp" : "HIDE",
+            "itf" : null,
+            "ustp" : "HIDE",
+            "review" : "null"
+        }
+    }
+}
