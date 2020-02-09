@@ -1,5 +1,5 @@
 # myLibrary
-Library System - to be published on Heroku in 2021
+Library System
 
 Angular 8<br> 
 Typescript<br> 
