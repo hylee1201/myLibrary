@@ -1,0 +1,57 @@
+<div class="signupForm">
+    <h2>Sign Up</h2>
+    <form (ngSubmit)="signUp()" [formGroup]="form">
+        <mat-error *ngIf="isSubmitted">{{ message }}</mat-error>
+        <mat-error *ngIf="password.value != '' && password2.value != '' && password.value !== password2.value">
+            Password and confirmation password should match.
+        </mat-error>
+        <div formGroupName="signup">
+            <div class="form-group">
+                <mat-form-field>
+                    <input
+                        (change)="onChange()"
+                        type="text" matInput placeholder="username" 
+                        formControlName="username"
+                        required>
+                    <mat-hint>Type an email address</mat-hint>
+                    <mat-error *ngIf="username.touched && username.invalid">
+                        <mat-error *ngIf="username.errors.required">User name is required.</mat-error>
+                        <mat-error *ngIf="username.errors.minlength">User name is minimum {{ username.errors.minlength.requiredLength }} characters.</mat-error>
+                        <mat-error *ngIf="username.errors.cannotContainSpace">User name cannot contain space.</mat-error>
+                        <mat-error *ngIf="username.errors?.pattern">Please provide a valid email address</mat-error>
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="form-group">
+                <mat-form-field>
+                    <input 
+                        type="password" matInput placeholder="password" 
+                        formControlName="password"
+                        required>
+                    <mat-error *ngIf="password.touched && password.invalid">
+                        <mat-error *ngIf="password.errors.required">Password is required.</mat-error>
+                        <mat-error *ngIf="password.errors.minlength">Password is minimum {{ password.errors.minlength.requiredLength }} characters.</mat-error>
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="form-group">
+                <mat-form-field>
+                    <input 
+                        type="password" matInput placeholder="password2" 
+                        formControlName="password2"
+                        required>
+                    <mat-error *ngIf="password2.touched && password2.invalid">
+                        <mat-error *ngIf="password2.errors.required">Confirmation password is required.</mat-error>
+                        <mat-error *ngIf="password2.errors.minlength">Confirmation password is minimum {{ password2.errors.minlength.requiredLength }} characters.</mat-error>
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="form-group">
+            <button [disabled]="form.invalid || password.value !== password2.value" class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm mr-1"></span>
+                Register
+            </button>
+        </div>
+    </form>
+</div>

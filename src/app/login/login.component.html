@@ -1,0 +1,38 @@
+<div class="loginForm">
+    <h2>Login</h2>
+    <form #f="ngForm">
+        <mat-error class="error">{{ message }}</mat-error>
+        <div class="form-group">
+            <mat-form-field>
+                <input
+                    [(ngModel)]="username" name="username"
+                    #email="ngModel"
+                    type="text" matInput placeholder="username" required (ngModelChange)="onChange($event)">
+                <mat-hint>Type an email address</mat-hint>
+                <mat-error>Username field is required.</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field>
+                <input 
+                    [(ngModel)]="password" name="password"
+                    #pass="ngModel"
+                    type="password" matInput placeholder="password" required (ngModelChange)="onChange($event)">
+                <mat-error>Password field is required.</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-checkbox [disabled]="f.invalid" 
+                [(ngModel)]="isRemembered" name="isRemembered"
+                #rememberMe="ngModel" [checked]="isRemembered">Remember me</mat-checkbox>
+        </div>
+        <div class="form-group">
+            <button [disabled]="f.invalid" class="btn btn-primary" (click)="signIn($event)">
+                <span class="spinner-border spinner-border-sm mr-1"></span>
+                Login
+            </button><br/><br/>
+            > <a routerLink="/signup">Sign up</a><br/>
+            > <a routerLink="/forgotpassword">Forgot password?</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,24 @@
+
+//mat- css change needs '::ng-deep'
+::ng-deep .mat-checkbox-label {
+    font-weight: 100;
+}
+
+.loginForm {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    //margin: auto;
+    width: 20%;
+    border: 2px solid green;
+    border-radius: 3%;
+    padding: 10px;
+}
+
+a.signup {
+    color: #fff;
+}
+
+mat-form-field {
+    width: 90%;
+}
